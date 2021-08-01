@@ -1,0 +1,23 @@
+button{
+    border: 3px solid #f29e4c;
+    height: 80px;
+    width: 150px;
+    color:#f29e4c;
+    background-color: black;
+    font-size: 15px;
+    }
+button:hover{
+    border: 2px solid #d9ed92;
+    color: white;
+    box-shadow: 0px 4px 4px #d9ed92;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
